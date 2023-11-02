@@ -2,12 +2,8 @@
 
 namespace RenMichaela\PhpCat;
 
-use GuzzleHttp\Client;
-
 class PhpCat
-{
-  const BASE_URL = 'https://http.cat';
-  
+{  
   private $statusCode;
 
   public static function status(string|int $statusCode)
@@ -20,7 +16,7 @@ class PhpCat
 
   public function response()
   {
-    $response = $this->client()->request('GET', "/".$this->statusCode.".jpg");
+    $response = $this->client()->get($this->statusCode);
 
     header("Content-Type: image/jpeg");
     header($response->getHeader('Content-Length')[0]);
@@ -30,6 +26,6 @@ class PhpCat
 
   private function client()
   {
-    return new Client(['base_uri' => self::BASE_URL]);
+    return new CatClient;
   }
 }
