@@ -1,5 +1,5 @@
 {
-    "name": "ren.michaela/phpcat",
+    "name": "renmichaela/phpcat",
     "description": "A PHP wrapper for the http.cat API",
     "license": "MIT",
     "type": "library",
