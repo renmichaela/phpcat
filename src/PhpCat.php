@@ -21,7 +21,7 @@ class PhpCat
     header("Content-Type: image/jpeg");
     header($response->getHeader('Content-Length')[0]);
 
-    return $response->getBody();
+    echo $response->getBody();
   }
 
   private function client()
