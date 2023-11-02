@@ -1,0 +1,1 @@
+{"version":1,"defects":{"PhpCatTest::test_can_be_created_from_a_status_code":5,"PhpCatTest::test_can_return_a_response":5},"times":{"PhpCatTest::test_can_be_created_from_a_status_code":0.001,"PhpCatTest::test_can_return_a_response":0.054}}
