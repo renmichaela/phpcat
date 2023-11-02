@@ -1,6 +1,7 @@
 {
     "name": "ren.michaela/phpcat",
     "description": "A PHP wrapper for the http.cat API",
+    "license": "MIT",
     "type": "library",
     "require": {
         "guzzlehttp/guzzle": "^7.8"
