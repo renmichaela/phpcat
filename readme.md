@@ -4,6 +4,9 @@ A PHP wrapper to return HTTP responses codes as cats. Powered by the fabulous [h
 
 **Usage**
 
+`composer require renmichaela/phpcat`
+
+
 ```php
 use RenMichaela\PhpCat\PhpCat;
 
