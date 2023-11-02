@@ -13,4 +13,5 @@ return PhpCat::status(400)->response();
 ```
 
 will return:
+
 ![](https://http.cat/400)
