@@ -2,9 +2,9 @@
 
 A PHP wrapper to return HTTP responses codes as cats. Powered by the fabulous [http.cat](https://http.cat) API.
 
-**Usage**
-
 `composer require renmichaela/phpcat`
+
+**Usage**
 
 
 ```php
