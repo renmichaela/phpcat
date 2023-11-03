@@ -1,6 +1,6 @@
 <?php
 
-namespace RenMichaela\PhpCat;
+namespace PhpCat;
 
 class PhpCat
 {  

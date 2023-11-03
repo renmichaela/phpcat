@@ -2,6 +2,6 @@
 
 require_once('vendor/autoload.php');
 
-use RenMichaela\PhpCat\PhpCat;
+use PhpCat\PhpCat;
 
 return PhpCat::status(301)->response();

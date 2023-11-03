@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "RenMichaela\\PhpCat\\": "src/"
+            "PhpCat\\": "src/"
         },
         "classmap": [
             "src/"

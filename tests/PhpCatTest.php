@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-use RenMichaela\PhpCat\PhpCat;
+use PhpCat\PhpCat;
 
 class PhpCatTest extends TestCase
 {

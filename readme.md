@@ -8,7 +8,7 @@ A PHP wrapper to return HTTP responses codes as cats. Powered by the fabulous [h
 
 
 ```php
-use RenMichaela\PhpCat\PhpCat;
+use PhpCat\PhpCat;
 
 // ...
 
